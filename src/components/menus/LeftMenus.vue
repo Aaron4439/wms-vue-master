@@ -3,7 +3,7 @@
     <el-menu mode="vertical" 
              default-active="1"
              background-color="#7171C6"
-             text-color="#fff" 
+             text-color="#ffffff" 
              active-text-color="#FEC171" 
              :collapse="isCollapse">
          <menu-item :menus="menus"></menu-item>
