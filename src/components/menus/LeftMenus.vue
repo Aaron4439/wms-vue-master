@@ -1,10 +1,11 @@
 <template>
   <el-scrollbar wrapClass="scrollbar-wrapper">
     <el-menu mode="vertical" 
-             default-active="1"
-             background-color="#7171C6"
-             text-color="#fff" 
-             active-text-color="#FEC171" 
+             default-active="home"
+             background-color="#025155"
+             text-color="#FFFFFF" 
+             active-text-color="#FFEB3B" 
+             unique-opened 
              :collapse="isCollapse">
          <menu-item :menus="menus"></menu-item>
     </el-menu>

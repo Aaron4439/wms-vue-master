@@ -1,6 +1,7 @@
 <template>
   <el-menu class="navbar" mode="horizontal">
     <na-svg class="svg-container" :toggleClick="toggleSideBar" :isActive="barEffect.open"></na-svg>
+    <el-tag type="success" class="el-tagstyle">标签二</el-tag>
   </el-menu>
 </template>
 
@@ -23,13 +24,19 @@ export default {
 
 <style ref="stylesheet/scss" lang="scss" scoped>
 .navbar{
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 40px;
+  background-color: #006f75;
   .svg-container {
-    line-height: 50px;
-    height: 50px;
+    line-height: 40px;
+    height: 40px;
     float: left;
     padding: 0 10px;
   }
+}
+.el-tagstyle {
+  float: right;
+  margin-top: 2px;
+  margin-right: 6px;
 }
 </style>

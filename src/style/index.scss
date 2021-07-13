@@ -138,3 +138,8 @@ code {
 .el-submenu__title i {
   color: white !important;
 }
+
+.el-menu--collapse .el-menu .el-submenu, .el-menu--popup {
+  width: 160px !important;
+  min-width: 160px !important;
+}
