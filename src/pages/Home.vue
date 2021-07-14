@@ -24,6 +24,7 @@
       <navbar></navbar>
       <main-container></main-container>
     </div>
+    <LoginBox></LoginBox>
   </div>
 </template>
 
@@ -31,12 +32,14 @@
 import LeftMenus from '../components/menus/LeftMenus'
 import Navbar from '../components/navbar/index'
 import MainContainer from './mainContainer/index'
+import LoginBox from '../components/LoginBox.vue'
 
 export default {
   components: {
     MainContainer,
     Navbar,
-    LeftMenus
+    LeftMenus,
+    LoginBox
   },
   name: 'home',
   computed: {
@@ -77,7 +80,7 @@ export default {
   margin: 0 110px;
   height: 100%;
   background-color: #f1f1f1;
-  border-left: 2px solid rgb(194, 194, 194);
+  border-left: 1px solid rgb(194, 194, 194);
   box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
 }
 .userinfo {
@@ -85,7 +88,7 @@ export default {
   height: 100%;
   float: right;
   background-color: #f1f1f1;
-  border-left: 2px solid rgb(194, 194, 194);
+  border-left: 1px solid rgb(194, 194, 194);
   box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
 }
 </style>

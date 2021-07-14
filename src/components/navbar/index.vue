@@ -1,7 +1,7 @@
 <template>
   <el-menu class="navbar" mode="horizontal">
     <na-svg class="svg-container" :toggleClick="toggleSideBar" :isActive="barEffect.open"></na-svg>
-    <el-tag type="success" class="el-tagstyle">标签二</el-tag>
+    <!-- <el-tag type="success" class="el-tagstyle">标签二</el-tag> -->
   </el-menu>
 </template>
 
@@ -26,7 +26,7 @@ export default {
 .navbar{
   height: 30px;
   line-height: 40px;
-  background-color: #006f75;
+  background-color: #5c5ead;
   .svg-container {
     line-height: 40px;
     height: 40px;

@@ -136,7 +136,11 @@ code {
 /*sidebar*/
 
 .el-submenu__title i {
-  color: white !important;
+  color: antiquewhite;
+}
+
+.el-menu i {
+  color: antiquewhite;
 }
 
 .el-menu--collapse .el-menu .el-submenu, .el-menu--popup {

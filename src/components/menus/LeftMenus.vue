@@ -2,7 +2,7 @@
   <el-scrollbar wrapClass="scrollbar-wrapper">
     <el-menu mode="vertical" 
              default-active="home"
-             background-color="#025155"
+             background-color="#020360"
              text-color="#FFFFFF" 
              active-text-color="#FFEB3B" 
              unique-opened 
